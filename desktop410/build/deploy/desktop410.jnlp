@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="desktop410.jnlp">
+  <information>
+    <title>desktop410</title>
+    <vendor>makery.ch</vendor>
+    <description>AddressApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="desktop410.jar" size="58300" download="eager" />
+    <jar href="libs/ez-vcard-0.10.3.jar" size="427887" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="ch.makery.address.MainApp"  name="AddressApp" />
+  <update check="background"/>
+</jnlp>
